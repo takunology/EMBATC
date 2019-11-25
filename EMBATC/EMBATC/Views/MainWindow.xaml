@@ -1,0 +1,40 @@
+﻿<Window x:Class="EMBATC.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EMBATC"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="EMBATC" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid MouseDown="Grid_MouseDown">
+        <Grid Margin="200 0 0 0">
+            <Grid x:Name="GridPrincipal" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
+        <Grid Width="200" HorizontalAlignment="Left" Background="#FF404040">
+            <materialDesign:TransitioningContent x:Name="TransitioningContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.2}">
+                <Grid x:Name="GridCursor" Margin="0 100 0 0" Background="Green" Width="10" HorizontalAlignment="Left" Height="60" VerticalAlignment="Top"></Grid>
+            </materialDesign:TransitioningContent>
+            <ListView x:Name="ListViewMenu" Margin="0 100" Foreground="#FFBDBABA" Background="#00FFFFFF" BorderBrush="{x:Null}" SelectionChanged="ListViewMenu_SelectionChanged" SelectedIndex="0">
+                <ListViewItem Height="60">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="InsertPhoto" Width="30" Height="30" VerticalAlignment="Center" Margin="5"/>
+                        <TextBlock Text="1. 画像を選ぶ" FontSize="20" VerticalAlignment="Center" Margin="10 0"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="60">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="Sync" Width="30" Height="30" VerticalAlignment="Center" Margin="5"/>
+                        <TextBlock Text="2. 変換する" FontSize="20" VerticalAlignment="Center" Margin="10 0"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="60">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="Floppy" Width="30" Height="30" VerticalAlignment="Center" Margin="5"/>
+                        <TextBlock Text="3. 保存する" FontSize="20" VerticalAlignment="Center" Margin="10 0"/>
+                    </StackPanel>
+                </ListViewItem>
+            </ListView>
+        </Grid>
+    </Grid>
+</Window>

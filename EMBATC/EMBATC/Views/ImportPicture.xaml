@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="EMBATC.ImportPicture"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EMBATC"
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="500">
+    <Grid>
+        <Grid Margin="0,0,0,0" Height="400" VerticalAlignment="Top" HorizontalAlignment="Left" Width="500">
+            <Image HorizontalAlignment="Left" Margin="100,0,0,0" Height="300" VerticalAlignment="Top" Width="300" x:Name="picture"/>
+        </Grid>
+        <Button Content="参照" Height="25" Width="80" Margin="0 265 0 0" FontSize="14" Click="Button_Click"/>
+        <Label Margin="0 350 0 0" Height="30" Width="450" FontSize="14" x:Name="content_path"/>
+    </Grid>
+</UserControl>
