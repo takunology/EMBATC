@@ -61,9 +61,9 @@ namespace EMBATC_1._0._0
             progress.Minimum = 0; //最小値は0
             progress.Maximum = h; //高さの分が最大値
 
-            if(w > 256 || h > 256)
+            if(w > 128 || h > 128)
             {
-                MessageBox.Show("幅または高さが 256[px] を超えているものは生成できません。", "コード生成エラー", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("幅または高さが 128[px] を超えているものは生成できません。", "コード生成エラー", MessageBoxButton.OK, MessageBoxImage.Information);
                 return;
             }
 
