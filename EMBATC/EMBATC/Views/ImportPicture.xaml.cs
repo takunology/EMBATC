@@ -21,29 +21,19 @@ namespace EMBATC
     /// </summary>
     public partial class ImportPicture : UserControl
     {
-        string Filepath;
         public ImportPicture()
         {
             InitializeComponent();
+            FileOpenViewModel = new ViewModels.FileOpenViewModel { FilePath = "" };
+            this.DataContext = FileOpenViewModel;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private ViewModels.FileOpenViewModel FileOpenViewModel;
+
+        private void Button_FileOpen(object sender, RoutedEventArgs e)
         {
-            var dialog = new OpenFileDialog(); //ファイルオープンのインスタンス化
-
-            dialog.Filter = "pngファイル (*.png)|*.png|jpegファイル (*.jpg)|*.jpg|bmpファイル (*.bmp)|*.bmp";
-
-            if (dialog.ShowDialog() == true)
-            {
-                Filepath = (dialog.FileName);
-            }
-            else
-            {
-                return;
-            }
-
-            content_path.Content = Filepath;
-            picture.Source = new BitmapImage(new Uri(Filepath)); //UIに画像を表示
+            //FileOpenViewModel.FilePath = "こんな風に変わる";
+            FileOpenViewModel.OpenFile();
         }
     }
 }
