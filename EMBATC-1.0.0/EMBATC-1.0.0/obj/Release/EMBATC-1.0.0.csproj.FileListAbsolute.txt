@@ -9,3 +9,14 @@ C:\Users\takun\Desktop\EMBATC-master\EMBATC-1.0.0\EMBATC-1.0.0\obj\Release\EMBAT
 C:\Users\takun\Desktop\EMBATC-master\EMBATC-1.0.0\EMBATC-1.0.0\obj\Release\EMBATC_1._0._0.Properties.Resources.resources
 C:\Users\takun\Desktop\EMBATC-master\EMBATC-1.0.0\EMBATC-1.0.0\obj\Release\EMBATC-1.0.0.csproj.GenerateResource.cache
 C:\Users\takun\Desktop\EMBATC-master\EMBATC-1.0.0\EMBATC-1.0.0\obj\Release\EMBATC-1.0.0.exe
+C:\Users\takun\Documents\GitHub\EMBATC\EMBATC-1.0.0\EMBATC-1.0.0\bin\Release\EMBATC-1.0.0.exe.config
+C:\Users\takun\Documents\GitHub\EMBATC\EMBATC-1.0.0\EMBATC-1.0.0\bin\Release\EMBATC-1.0.0.exe
+C:\Users\takun\Documents\GitHub\EMBATC\EMBATC-1.0.0\EMBATC-1.0.0\obj\Release\MainWindow.g.cs
+C:\Users\takun\Documents\GitHub\EMBATC\EMBATC-1.0.0\EMBATC-1.0.0\obj\Release\App.g.cs
+C:\Users\takun\Documents\GitHub\EMBATC\EMBATC-1.0.0\EMBATC-1.0.0\obj\Release\EMBATC-1.0.0_MarkupCompile.cache
+C:\Users\takun\Documents\GitHub\EMBATC\EMBATC-1.0.0\EMBATC-1.0.0\obj\Release\EMBATC-1.0.0_MarkupCompile.lref
+C:\Users\takun\Documents\GitHub\EMBATC\EMBATC-1.0.0\EMBATC-1.0.0\obj\Release\MainWindow.baml
+C:\Users\takun\Documents\GitHub\EMBATC\EMBATC-1.0.0\EMBATC-1.0.0\obj\Release\EMBATC-1.0.0.g.resources
+C:\Users\takun\Documents\GitHub\EMBATC\EMBATC-1.0.0\EMBATC-1.0.0\obj\Release\EMBATC_1._0._0.Properties.Resources.resources
+C:\Users\takun\Documents\GitHub\EMBATC\EMBATC-1.0.0\EMBATC-1.0.0\obj\Release\EMBATC-1.0.0.csproj.GenerateResource.cache
+C:\Users\takun\Documents\GitHub\EMBATC\EMBATC-1.0.0\EMBATC-1.0.0\obj\Release\EMBATC-1.0.0.exe

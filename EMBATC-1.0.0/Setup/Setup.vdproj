@@ -15,25 +15,25 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_40FD67CA938A892213BB18AB2444CBE9"
-        "OwnerKey" = "8:_C6F6ACD1261C45BA95BB8DE440162F6F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_40FD67CA938A892213BB18AB2444CBE9"
+        "MsmKey" = "8:_8CBE588CAC17E5CFF816807D37C7A915"
         "OwnerKey" = "8:_FC8182CC6A1043D4BCBC544F21647C46"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_40FD67CA938A892213BB18AB2444CBE9"
+        "MsmKey" = "8:_8CBE588CAC17E5CFF816807D37C7A915"
+        "OwnerKey" = "8:_9346A327A1D74B999748885A6E9F4A9B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8CBE588CAC17E5CFF816807D37C7A915"
         "OwnerKey" = "8:_F2FB3F08EA604DFEB706A149C1327BAB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_C6F6ACD1261C45BA95BB8DE440162F6F"
+        "MsmKey" = "8:_9346A327A1D74B999748885A6E9F4A9B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -52,13 +52,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C6F6ACD1261C45BA95BB8DE440162F6F"
+        "OwnerKey" = "8:_FC8182CC6A1043D4BCBC544F21647C46"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_FC8182CC6A1043D4BCBC544F21647C46"
+        "OwnerKey" = "8:_9346A327A1D74B999748885A6E9F4A9B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -70,7 +70,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_40FD67CA938A892213BB18AB2444CBE9"
+        "OwnerKey" = "8:_8CBE588CAC17E5CFF816807D37C7A915"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -98,6 +98,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
         "Release"
@@ -160,14 +168,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_40FD67CA938A892213BB18AB2444CBE9"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8CBE588CAC17E5CFF816807D37C7A915"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_40FD67CA938A892213BB18AB2444CBE9"
+                    "_8CBE588CAC17E5CFF816807D37C7A915"
                     {
                     "Name" = "8:System.Net.Http.dll"
                     "Attributes" = "3:512"
@@ -778,7 +786,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_C6F6ACD1261C45BA95BB8DE440162F6F"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_9346A327A1D74B999748885A6E9F4A9B"
             {
             "SourcePath" = "8:..\\EMBATC-1.0.0\\obj\\Release\\EMBATC-1.0.0.exe"
             "TargetName" = "8:"
